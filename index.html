@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html>
     <head>
@@ -21,9 +22,11 @@
                 border-collapse: collapse;
                 background-color: #FFFFF2;
             }
+            /*
             table:nth-child(ever){
                 background-color: white;
             }
+            */
             table thead{
                 font-size: 25px;
             }
@@ -53,6 +56,12 @@
                 margin-top: 0px;
                 margin-bottom: 0px;
             }
+            .ora{
+                background-color: #fce6b1;
+            }
+            td{
+                text-align: center;
+            }
         </style>
     </head>
     <header>ORARIO 3Bi</header>
@@ -62,6 +71,7 @@
         <div id="table">
         <table>
             <thead>
+                <td class="ora">ORE</td>
                 <td>Luned&igrave;</td>
                 <td>Marted&igrave;</td>
                 <td>Mercoled&igrave;</td>
@@ -72,6 +82,7 @@
             <tbody>
                 <tr class="jj">
                 	<!-- 1 ora !-->
+                    <td class="ora">1 Ora</td>
                     <td >Castronuovo<p>---</p></td> <!-- LUNEDI !-->
                     <td>Castronuovo</td> <!-- MARTEDI' !-->
                     <td>Storia<p>Castronuovo</p></td> <!-- MERCOLEDI' !-->
@@ -81,6 +92,7 @@
                 </tr>
                 <!-- 2 ora !-->
                 <tr class="jj">
+                    <td class="ora">2 Ora</td>
                     <td>SER(LAB)<p>Rizzo-Carrieri</p></td> <!-- LUNEDI !-->
                     <td>Castronuovo</td> <!-- MARTEDI' !-->
                     <td>Ed.Fisica<p>Bianco</p></td> <!-- MERCOLEDI' !-->
@@ -89,7 +101,8 @@
                     <td>Inglese<p>Nigro</p></td>
                 </tr>
                 <!-- 3 ora !-->
-                <tr class="jj"> 
+                <tr class="jj">
+                    <td class="ora">3 Ora</td>
                     <td>SER(LAB)<p>Rizzo-Carrieri</p></td> <!-- LUNEDI !-->
                     <td>Matematica<p>Nobile</p></td> <!-- MARTEDI' !-->
                     <td>Ed.Fisica<p>Bianco</p></td> <!-- MERCOLEDI' !-->
@@ -99,6 +112,7 @@
                 </tr>
                 <!-- 4 ora !-->
                 <tr class="jj">
+                    <td class="ora">4 Ora</td>
                     <td>Telecomunicazioni<p>Montagna</p></td> <!-- LUNEDI !-->
                     <td>Info(LAB)<p>Catalano-Carrieri</p></td> <!-- MARTEDI' !-->
                     <td>Matematica<p>Nobile</p></td> <!-- MERCOLEDI' !-->
@@ -107,7 +121,8 @@
                     <td>Matematica<p>Nobile</p></td>
                 </tr>
                 <!-- 5 ora !-->
-                <tr class="jj"> 
+                <tr class="jj">
+                    <td class="ora">5 Ora</td>
                     <td>TPI<p>Rizzo</p></td> <!-- LUNEDI !-->
                     <td>Tele(LAB)<p>Montagna-Ferraro</p></td> <!-- MARTEDI' !-->
                     <td>Informatica<p>Catalano</p></td> <!-- MERCOLEDI' !-->
@@ -117,6 +132,7 @@
                 </tr>
                 <!-- 6 ora !-->
                 <tr class="jj">
+                    <td class="ora">6 Ora</td>
                     <td></td>
                     <td>Tele(LAB)<p>Montagna-Ferraro</p></td>
                     <td></td>
@@ -128,6 +144,8 @@
         </table>
     </div>
     
+    <br><br><br>
+
     <h2>SER = Sitemi e reti</h2>
     <h2>TPI = Tecnologie e progettazioni informatiche</h2>
 
